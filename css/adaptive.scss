@@ -1,0 +1,385 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 500px) and (max-width: 768px) {
+  .header {
+    height: 100%;
+    width: 100%;
+  }
+  .header-container {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .header__col {
+    flex-basis: auto;
+    margin: 5px 0;
+  }
+  .header__col--wide-column {
+    flex: 1;
+    width: auto;
+  }
+  .header-top {
+    height: 100%;
+    min-height: 100%;
+    padding: 15px 0;
+  }
+  .header__link--registration {
+    border: none;
+  }
+  .header-bottom {
+    height: 100%;
+    min-height: 100%;
+  }
+  .header-bottom .header-container .header__col {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .menu {
+    flex-flow: column wrap;
+  }
+  .menu__item {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .menu__link {
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .menu__link:hover {
+    background-color: #fafafa;
+  }
+
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .main--pages-theme {
+    margin-bottom: 30px;
+  }
+  .block-container {
+    flex-flow: column wrap;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .block-item {
+    margin: 0;
+    padding: 0;
+    flex-basis: auto;
+  }
+  .block--decoration {
+    width: 100%;
+  }
+  .block-item--narrow-column {
+    min-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .block-item--wide-column {
+    min-width: 100%;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .calc-block {
+    background-size: cover;
+  }
+  .calculator-wrap {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 13.5px;
+  }
+  .calculator__header {
+    width: 100%;
+  }
+  .ui-widget.ui-widget-content {
+    min-width: 100%;
+    width: 100%;
+  }
+  .how2-list {
+    flex-flow: column wrap;
+    width: inherit;
+  }
+  .how2-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    flex-basis: auto;
+  }
+  .how2-item-wrap {
+    margin-top: 15px;
+  }
+  .how2-item__number {
+    margin: 5px;
+  }
+  .choose-block {
+    padding: 30px 0;
+  }
+  .choose-block__subheader {
+    margin: 0 auto;
+  }
+  .block-container--advantage-theme {
+    background-image: none;
+    height: 100%;
+  }
+  .choose-block-item {
+    flex: 1;
+    flex-basis: 100%;
+    margin: 0;
+    padding: 20px 0;
+  }
+  .stats-block {
+    padding-bottom: 30px;
+  }
+  .stats-wrap {
+    flex-flow: column wrap;
+    width: 100%;
+  }
+  .stats-item {
+    margin-bottom: 20px;
+  }
+  .stats-separator {
+    display: none;
+  }
+  .reviews-block {
+    margin: 30px 0;
+  }
+  .rev-slider-gradient-r {
+    display: none;
+  }
+  .rev-slider-gradient-l {
+    display: none;
+  }
+  .reviews-slider {
+    width: 100% !important;
+  }
+  .review-item {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 30px;
+  }
+  .sell-out-block {
+    padding: 30px 0;
+  }
+  .news-block {
+    padding: 30px 0;
+  }
+  .news-item {
+    margin: 15px 0;
+  }
+  .data-wrap {
+    display: block;
+    height: auto;
+    padding: 15px;
+    width: 100%;
+  }
+  .data-table__cell:first-child {
+    max-width: 180px;
+    width: auto;
+  }
+  .calculator-wrap--wide .button--wide {
+    width: 100%;
+  }
+  .chat-wrap {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .main-table__body-cell {
+    font-size: 10px;
+  }
+  .form-table {
+    width: 100%;
+  }
+  .form-table__cell input[type="text"] {
+    width: 100%;
+  }
+  .document-block {
+    min-width: 100%;
+    width: 100%;
+  }
+  .file__upload {
+    width: 100%;
+  }
+  .loan-wrap {
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .loan__item {
+    flex: 1;
+    flex-basis: 100%;
+    margin-bottom: 15px;
+    padding-top: 10px;
+  }
+  .loan__item--card {
+    width: 100%;
+  }
+  .loan__item:last-child {
+    width: 100%;
+    text-align: left;
+  }
+  .contract-button {
+    display: block;
+    padding: 10px calc(calc(100% - 140px) / 2);
+  }
+  .button--md-blue {
+    margin-top: 10px !important;
+    width: 100%;
+  }
+  .button--md-white {
+    margin-top: 10px !important;
+    width: 100%;
+  }
+  .payment-type-list__img {
+    width: 100%;
+  }
+  .step--item--narrow {
+    margin: 15px auto;
+  }
+  .block-item--arrow {
+    display: none;
+  }
+  .step-list {
+    width: 100%;
+    height: 100%;
+    flex-flow: column wrap;
+  }
+  .step-list__item {
+    margin: 0;
+    padding: 0;
+  }
+  .step-list__link {
+    display: block;
+    text-align: left;
+    padding: 5px 15px;
+  }
+  .step-list__link--current {
+    background: #f5fcfe;
+    color: #2b2c2c;
+  }
+  .step-list__link:hover {
+    background: #f5fcfe;
+    color: #2b2c2c;
+  }
+  .step-list__item:hover .step-list__link::after {
+    border-bottom: none;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+  }
+  .step-list__link--current::after {
+    bottom: 0;
+    border-bottom: none;
+  }
+  .alert {
+    width: 100%;
+  }
+  .step-body .form-table__cell:first-child {
+    display: block;
+    float: left;
+    font-size: 10px;
+    width: auto;
+  }
+  .modal-overlay {
+    width: 100%;
+  }
+  .modal-wrap {
+    height: auto;
+    margin: 0;
+    top: 10%;
+    left: 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .modal-header {
+    padding-bottom: 15px;
+  }
+  .modal-body {
+    padding-top: 15px;
+  }
+  .modal-table__cell {
+    width: 40%;
+  }
+  .modal-table__cell > .input {
+    width: 100%;
+  }
+  .cards-container {
+    height: 285px;
+    min-height: 285px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card--front {
+    left: 0;
+    top: 120px;
+  }
+  .card--back {
+    left: 0;
+  }
+  .card-img {
+    width: 100%;
+  }
+  .card-input--cvv {
+    width: 75px !important;
+  }
+  .card-select--month {
+    width: 145px;
+  }
+  #show-modal {
+    width: 100%;
+  }
+  .button--return {
+    width: 100%;
+  }
+  .button--default-theme {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .step-body .button--default-theme {
+    width: 100%;
+    margin: 0;
+  }
+  .nbsp-wrap {
+    display: none;
+  }
+  .step-theme input {
+    width: 100%;
+  }
+  .step-theme label {
+    font-size: 11px;
+  }
+  .step-theme input[type="radio"] {
+    display: inline-block;
+    width: 13px;
+  }
+
+  .footer {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .footer-container {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding: 0 15px;
+    width: 100%;
+  }
+  .footer__col {
+    flex-basis: 100%;
+    margin: 5px 0;
+  }
+  .footer__col > * {
+    display: block;
+    text-align: left;
+  }
+}

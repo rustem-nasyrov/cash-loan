@@ -1,0 +1,14 @@
+$font-path: "../fonts/GothamPro";
+
+@font-face {
+  src: url('#{$font-path}/GothamProRegular.eot'), url('#{$font-path}/GothamProRegular.ttf'), url('#{$font-path}/GothamProRegular.woff');
+  font-family: "GothamProRegular";
+}
+@font-face {
+  src: url('#{$font-path}/GothamProBold.eot'), url('#{$font-path}/GothamProBold.ttf'), url('#{$font-path}/GothamProBold.woff');
+  font-family: "GothamProBold";
+}
+@font-face {
+  src: url('#{$font-path}/GothamProLight.eot'), url('#{$font-path}/GothamProLight.ttf'), url('#{$font-path}/GothamProLight.woff');
+  font-family: "GothamProLight";
+}
